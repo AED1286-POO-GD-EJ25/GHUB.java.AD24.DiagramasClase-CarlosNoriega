@@ -18,4 +18,16 @@ public boolean solicitarPrestamo(Libro libro){
     public boolean devolverLibro(Libro libro){
         return true;
     }
+    public int getid_Persona(){
+        return id_Persona;
+    }
+    public int setid_Persona(int id_Persona){
+        return this.id_Persona = id_Persona;
+    }
+    public int getnombre(){
+        return nombre;
+    }
+    public int setnombre(String nombre){
+        return this.nombre = nombre;
+    }
 }
