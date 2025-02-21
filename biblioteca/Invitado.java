@@ -1,6 +1,5 @@
 package biblioteca;
 public class Invitado extends Persona {
-
     private String institucion;
 
     public Invitado(){}
@@ -9,7 +8,17 @@ public class Invitado extends Persona {
         super( id_Persona , nombre ,  telefono);
         this.institucion = institucion;
     }
+    public boolean consultarDisponibilidad(Libro libro){
+        return true;
+    }
+    public void solicitarPrestamoTemporal(Libro libro){
 
-    public void consultarPrestamos(){}
-    public void 
+    }
+    
+    public String getInstitucion(){
+        return this.institucion;
+    }
+    public void setInstitucion(String institucion){
+        this.institucion = institucion;
+    }
 }

@@ -1,3 +1,10 @@
 ./miTest/AppTest.java
+./biblioteca/Persona.java
+./biblioteca/Libro.java
+./biblioteca/Prestamo.java
+./biblioteca/Usuario.java
+./biblioteca/Ejemplar.java
+./biblioteca/Invitado.java
+./biblioteca/Bibliotecario.java
 ./miPrincipal/Operaciones.java
 ./miPrincipal/Principal.java
